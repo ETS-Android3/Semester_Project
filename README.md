@@ -1,5 +1,5 @@
 # COMP.4630 - Semester Project: Student Resources Forum App
-Authors: Caroline Demasi, Brandon Zuniga
+Authors: Caroline DeMasi, Brandon Zuniga
 
 This project is a semester long project with the goal of creating a mobile application designed
 to be a resource for students in a university setting.

@@ -1,6 +1,6 @@
 # COMP.4630 - Semester Project: Who am i
 Authors:
-## UML Student Name: Caroline Demasi
+## UML Student Name: Caroline DeMasi
 Github Name: CDeMasi
 
 ## UML Student Name: Brandon Zuniga
