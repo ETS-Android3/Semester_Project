@@ -1,2 +1,3 @@
+- Implement Firebase authentication and user data storage
 - Draft privacy policy/EULA/terms and conditions
 - 
