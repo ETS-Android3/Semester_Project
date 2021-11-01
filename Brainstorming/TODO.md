@@ -1,0 +1,2 @@
+- Draft privacy policy/EULA/terms and conditions
+- 
