@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ver2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="welcome">Welcome! Where do you want to go?</string>
+    <string name="button_classes">My Classes</string>
+    <string name="button_add_classes">Add more classes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
