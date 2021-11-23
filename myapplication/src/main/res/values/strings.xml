@@ -7,4 +7,7 @@
     <string name="button_classes">My Classes</string>
     <string name="welcome">Welcome! Where do you want to go?</string>
     <string name="button_add_classes">Add more classes</string>
+    <string name="my_classes">My Classes</string>
+    <string name="tip">A useful tip for the app will go here!</string>
+    <string name="add_classes_text">Add more classes</string>
 </resources>
