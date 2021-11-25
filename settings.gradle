@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "Semester Project"
 include ':myapplication'
 include ':ver2'
+include ':ver3'
