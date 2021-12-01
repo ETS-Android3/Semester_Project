@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_login">
+
+    <fragment
+        android:id="@+id/fragment_signup"
+        android:name="com.example.learn.Fragment_signup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_fragment_signup_to_fragment_home"
+            app:destination="@id/fragment_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_three"
+        android:name="com.example.learn.Fragment_three"
+        android:label="fragment_three"
+        tools:layout="@layout/fragment_three" >
+        <action
+            android:id="@+id/action_fragment_three_to_fragment_one"
+            app:destination="@id/fragment_signup" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_two"
+        android:name="com.example.learn.Fragment_two"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" >
+        <action
+            android:id="@+id/action_fragment_two_to_fragment_three"
+            app:destination="@id/fragment_three"
+            app:popUpTo="@id/fragment_signup" />
+        <argument
+            android:name="user"
+            app:argType="com.example.learn.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.example.learn.Fragment_login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_home"
+            app:destination="@id/fragment_home" />
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_signup"
+            app:destination="@id/fragment_signup" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.learn.Fragment_home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+</navigation>

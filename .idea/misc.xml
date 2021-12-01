@@ -3,25 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/layout/fragment_signup.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/layout/fragment_three.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/learn/src/main/res/layout/fragment_two.xml" value="0.14739583333333334" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_home.xml" value="0.45" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/ver2/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/ver2/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/ver2/src/main/res/layout/fragment_myclasses.xml" value="0.1" />
+        <entry key="..\:/Users/Brandon Zuniga/AndroidStudioProjects/Semester_Project/ver3/src/main/res/drawable/ic_home_black_24dp.xml" value="0.1" />
         <entry key="..\:/Users/icebr/OneDrive/Documents/GitHub/Semester_Project/myapplication/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/icebr/OneDrive/Documents/GitHub/Semester_Project/myapplication/src/main/res/layout/fragment_classes.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/icebr/OneDrive/Documents/GitHub/Semester_Project/myapplication/src/main/res/layout/fragment_home.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/app/src/main/res/layout/activity_main2.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/app/src/main/res/layout/fragment_myclasses.xml" value="0.2240880138969311" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_classes.xml" value="0.24444444444444444" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_home.xml" value="0.16" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_notifications.xml" value="0.13680555555555557" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/drawable-v24/ic_dashboard_black_24dp.xml" value="0.3828125" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/drawable-v24/ic_home_black_24dp.xml" value="0.3828125" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/drawable-v24/ic_notifications_black_24dp.xml" value="0.3828125" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/layout/activity_main.xml" value="0.15" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/layout/fragment_blank.xml" value="0.1861198738170347" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/layout/fragment_home.xml" value="0.13680555555555557" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/layout/fragment_myclasses.xml" value="0.13680555555555557" />
-        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/ver2/src/main/res/menu/bottom_nav_menu.xml" value="0.18" />
+        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_dashboard.xml" value="0.6162005785920925" />
+        <entry key="..\:/Users/zunig/StudioProjects/Semester_Project/myapplication/src/main/res/layout/fragment_home.xml" value="0.5" />
       </map>
     </option>
   </component>
