@@ -6,17 +6,110 @@
     android:layout_height="match_parent"
     tools:context=".ui.classes.ClassesFragment">
 
+    <ImageButton
+        android:id="@+id/class_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#673AB7"
+        android:src="@drawable/outline_school_black_24dp"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageButton
+        android:id="@+id/class_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:src="@drawable/outline_school_black_24dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageButton
+        android:id="@+id/class_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:src="@drawable/outline_school_black_24dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="255dp" />
+
+    <ImageButton
+        android:id="@+id/class_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8BC34A"
+        android:src="@drawable/outline_school_black_24dp"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="173dp" />
+
     <TextView
         android:id="@+id/text_classes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:textAlignment="center"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="356dp" />
+
+    <TextView
+        android:id="@+id/my_classes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_classes"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <ImageButton
+        android:id="@+id/class_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F44336"
+        android:src="@drawable/outline_school_black_24dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <ImageButton
+        android:id="@+id/class_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFC107"
+        android:src="@drawable/outline_school_black_24dp"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tip"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/outline_tips_and_updates_black_24dp"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="396dp" />
+
+    <ImageButton
+        android:id="@+id/add_classes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:src="@drawable/outline_dashboard_customize_black_24dp"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/add_classes_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_classes_text"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="499dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
