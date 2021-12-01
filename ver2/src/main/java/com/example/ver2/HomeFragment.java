@@ -70,11 +70,7 @@ public class HomeFragment extends Fragment {
 
     ////////////////////////////////////////////////////////////////
 
-        //region After locations are entered, new fragment will load on button click
-
-
-
-
+    //region After locations are entered, new fragment will load on button click
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -87,14 +83,13 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View view) {
 
+                //testing what branch im comitting to
 
-
-                //NavDirections action = HomeFragmentDirections.actionHomeFragmentToMyClassesFragment();
-                //Navigation.findNavController(view).navigate(action);
-                //NavDirections action = HomeFragmentDirections.actionHomeFragmentToMyClassesFragment3();
+                //NavDirections action =
+                //NavDirections action = HomeFragmentDirections.actionNavigationHomeToNavigationWeather();
 
                 //navController.navigate(action); // navigate to next fragment
-                navController.navigate(R.id.action_homeFragment_to_myClassesFragment);
+
 
             }
         });
