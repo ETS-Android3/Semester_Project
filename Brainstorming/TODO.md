@@ -1,3 +1,3 @@
 - Implement Firebase authentication and user data storage
 - Draft privacy policy/EULA/terms and conditions
-- 
+- continue adding backend and frontend specifically for profile and discussion board
