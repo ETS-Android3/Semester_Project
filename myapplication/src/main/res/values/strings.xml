@@ -10,4 +10,12 @@
     <string name="my_classes">My Classes</string>
     <string name="tip">A useful tip for the app will go here!</string>
     <string name="add_classes_text">Add more classes</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
