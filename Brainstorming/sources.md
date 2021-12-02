@@ -9,3 +9,6 @@ sources used for 11/10 progress report:
 sources used for 11/17 progress report:
 - https://firebase.google.com/docs/auth/android/email-link-auth?authuser=0
 - https://firebase.google.com/docs/database/admin/save-data
+
+sources used for 12/1 progress report:
+- https://developer.android.com/guide/navigation/navigation-getting-started 
