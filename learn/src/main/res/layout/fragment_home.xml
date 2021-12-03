@@ -8,6 +8,10 @@
     tools:context=".Fragment_home">
 
     <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rectangle" />
 
     <TextView
         android:layout_width="match_parent"
@@ -109,6 +113,7 @@
         android:layout_marginLeft="30dp"
         android:textColor="@color/black"
         android:text="A useful tip for the app will go here"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView" />
 
@@ -143,6 +148,7 @@
         android:layout_marginLeft="0dp"
         android:textColor="@color/black"
         android:text="Add more classes"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView" />
 </FrameLayout>

@@ -9,6 +9,11 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="150dp"
+        android:src="@drawable/rectangle" />
+
     <TextView
         android:id="@+id/discussions_text"
         android:layout_width="match_parent"
@@ -29,6 +34,7 @@
         android:gravity="center"
         android:textColor="@color/black"
         android:text="Create a new thread..."
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView"/>
 
