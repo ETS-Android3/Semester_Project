@@ -3,12 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background= "@color/teal_200"
+    android:background= "@color/white"
     tools:context=".Fragment_signup">
 
 
 
     <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="130dp"
+        android:src="@drawable/rectangle" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -64,7 +70,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/createAccountButton"
         android:text="Create Account"
-        android:backgroundTint="@android:color/darker_gray"
+        android:backgroundTint="@android:color/holo_green_light"
         android:layout_gravity="center_horizontal|bottom"
         android:layout_marginBottom="150dp"/>
 </FrameLayout>
