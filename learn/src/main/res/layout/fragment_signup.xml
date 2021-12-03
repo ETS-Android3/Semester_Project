@@ -31,6 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:layout_marginHorizontal="26sp"
+        android:backgroundTint="#000000"
+        android:textColorHint="#2E2E2E"
         android:hint="First Name *" />
 
     <EditText
@@ -39,6 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="170dp"
         android:layout_marginHorizontal="26sp"
+        android:backgroundTint="#000000"
+        android:textColorHint="#2E2E2E"
         android:hint="Last Name *" />
 
     <EditText
@@ -47,6 +51,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="210dp"
         android:layout_marginHorizontal="26sp"
+        android:backgroundTint="#000000"
+        android:textColorHint="#2E2E2E"
         android:hint="Phone Number (recommended)" />
 
     <EditText
@@ -55,6 +61,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
         android:layout_marginHorizontal="26sp"
+        android:backgroundTint="#000000"
+        android:textColorHint="#2E2E2E"
         android:hint="Email *" />
 
     <EditText
@@ -63,6 +71,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="290dp"
         android:layout_marginHorizontal="26sp"
+        android:backgroundTint="#000000"
+        android:textColorHint="#2E2E2E"
         android:hint="Password *" />
 
     <Button
