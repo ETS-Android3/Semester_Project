@@ -20,4 +20,4 @@ This program will:
 3. Provide an understanding of the methodology of building a mobile application.
 
 ## Installation
-1. Navigate to release[release](FIXME . com) folder to download the apk to android device and open apk to install and run our app. 
+1. Navigate to release[release](https://github.com/mindofbrandon/Semester_Project/blob/master/learn/release/learn-release.apk) folder to download the apk to android device and open apk to install and run our app. 
