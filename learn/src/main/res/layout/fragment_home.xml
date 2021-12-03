@@ -107,6 +107,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="80dp"
         android:layout_marginLeft="30dp"
+        android:textColor="@color/black"
         android:text="A useful tip for the app will go here"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView" />
@@ -140,6 +141,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="140dp"
         android:layout_marginLeft="0dp"
+        android:textColor="@color/black"
         android:text="Add more classes"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintStart_toEndOf="@+id/imageView" />

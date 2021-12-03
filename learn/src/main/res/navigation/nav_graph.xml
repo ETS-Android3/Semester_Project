@@ -41,6 +41,9 @@
         android:name="com.example.learn.Fragment_login"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
         <action
             android:id="@+id/action_fragment_login_to_fragment_home"
             app:destination="@id/fragment_home" />
