@@ -53,4 +53,14 @@
         android:name="com.example.learn.Fragment_home"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/fragment_discussion"
+        android:name="com.example.learn.Fragment_discussion"
+        android:label="fragment_discussion"
+        tools:layout="@layout/fragment_discussion" />
+    <fragment
+        android:id="@+id/fragment_profile"
+        android:name="com.example.learn.Fragment_profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
 </navigation>
