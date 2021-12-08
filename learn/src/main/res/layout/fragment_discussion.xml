@@ -48,6 +48,19 @@
         app:tint="@android:color/black" />
 
     <TextView
+        android:id="@+id/caroline"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="80dp"
+        android:text="Caroline DeMasi"
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <TextView
         android:id="@+id/thread_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -61,17 +74,17 @@
 
     <Button
         android:id="@+id/reply_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="200dp"
-        android:layout_marginTop="300dp"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="320dp"
         android:backgroundTint="@android:color/holo_green_light"
         android:text="Reply"
         android:textColor="@color/black"
-        android:textSize="12sp" />
+        android:textSize="8sp" />
 
     <ImageView
-        android:id="@+id/account_icon"
+        android:id="@+id/account_icon_caroline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="250dp"
@@ -79,6 +92,43 @@
         app:tint="@android:color/black"
         android:backgroundTint="#F44336"
         android:src="@drawable/ic_baseline_account_circle_24"/>
+
+
+    <ImageView
+        android:id="@+id/account_icon_brandon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="70dp"
+        app:tint="@android:color/black"
+        android:backgroundTint="#F44336"
+        android:src="@drawable/ic_baseline_account_circle_24"/>
+
+    <TextView
+        android:id="@+id/brandon"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="20dp"
+        android:text="Brandon Zuniga"
+        android:textColor="@color/black"
+        android:textSize="8sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/thread_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="120dp"
+        android:layout_marginTop="310dp"
+        android:textSize="8sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="Count me in, Caroline!"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintStart_toEndOf="@+id/imageView"/>
 
 
     <TextView
