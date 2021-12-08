@@ -94,10 +94,6 @@ public class Fragment_login extends Fragment {
 
                 navController.navigate(action); // send object from frag1 to frag2
 
-                //NavDirections action = Fragment_SignUpDirections.actionFragmentOneToFragmentTwo(user); // if "user" shows error, rebuild project
-
-                //navController.navigate(action); // send object from frag1 to frag2
-
             }
         });
         //endregion
@@ -115,13 +111,9 @@ public class Fragment_login extends Fragment {
 
                 User user = new User(email.getText().toString(), password.getText().toString());
 
-                NavDirections action = Fragment_loginDirections.actionFragmentLoginToFragmentHome();
+                NavDirections action = Fragment_loginDirections.actionFragmentLoginToFragmentHome(user);
 
                 navController.navigate(action); // send object from frag1 to frag2
-
-                //NavDirections action = Fragment_SignUpDirections.actionFragmentOneToFragmentTwo(user); // if "user" shows error, rebuild project
-
-                //navController.navigate(action); // send object from frag1 to frag2
 
             }
         });

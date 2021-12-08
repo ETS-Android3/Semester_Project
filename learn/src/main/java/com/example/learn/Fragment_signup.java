@@ -88,7 +88,7 @@ public class Fragment_signup extends Fragment {
 
                 User user = new User(email.getText().toString(), password.getText().toString());
 
-                NavDirections action = Fragment_signupDirections.actionFragmentSignupToFragmentHome();
+                NavDirections action = Fragment_signupDirections.actionFragmentSignupToFragmentHome(user);
                 navController.navigate(action);
 
 

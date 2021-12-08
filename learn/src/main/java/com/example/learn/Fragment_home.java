@@ -2,11 +2,17 @@ package com.example.learn;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -55,10 +61,44 @@ public class Fragment_home extends Fragment {
         }
     }
 
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_home, container, false);
+
     }
+
+
+    // implement navigation
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+
+        //region shareobjectsbetweenfragments
+        // receive data
+        String emailReceived = Fragment_homeArgs.fromBundle(getArguments()).getUser().email;
+        String passwordReceived = Fragment_homeArgs.fromBundle(getArguments()).getUser().password;
+        // getUser function naming will change depending on the argumentname given in nav_graph on specific fragment
+
+
+        // refer to textview
+        TextView emailtv = view.findViewById(R.id.emailDisplay);
+        //TextView usertv = view.findViewById(R.id.passwordDisplay);
+
+        // set data to textview
+        emailtv.setText(emailReceived);
+        //usertv.setText(passwordReceived);
+        //endregion
+
+        //TODO new bug occurs because of onViewCreated Function where user can no longer switch back to home fragment through navbar?
+
+
+    }
+
+
 }
